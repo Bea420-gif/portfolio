@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beatrice Dela Torre | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+
+  <!-- Mode Toggle -->
+  <button class="mode-btn" onclick="toggleMode()">🎨</button>
+
+  <!-- Header -->
+  <header>
+    <h1>Beatrice Dela Torre</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m <b>Beatrice Dela Torre</b>. I’m learning HTML and CSS and I enjoy building simple websites.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills-section" id="skills">
+    <h2>Skills</h2>
+    <div class="cards two-columns">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">Teamwork</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section projects-section" id="projects">
+    <h2>Projects</h2>
+    <div class="cards two-columns">
+      <div class="card">No projects yet</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:delatorrebeatriced@gmail.com">delatorrebeatriced@gmail.com</a></p>
+    <p>📘 <a href="https://facebook.com/BeaDelaTorre" target="_blank">Bea Dela Torre</a></p>
+    <p>🐦 <a href="https://twitter.com/BeaDelaTorre" target="_blank">Bea Dela Torre</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Beatrice Dela Torre</p>
+  </footer>
+
+  <script>
+    function toggleMode() {
+      if(document.body.className === "light"){
+        document.body.className = "dark";
+      } else {
+        document.body.className = "light";
+      }
+    }
+  </script>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
